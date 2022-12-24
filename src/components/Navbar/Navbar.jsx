@@ -5,8 +5,8 @@ export const Navbar=()=>{
     return(
         <div className="hi">
             <Link to="/home"><p>Home</p> </Link>
-             <Link to="/"><p> Products</p></Link> 
-            <Link to="/sign"><p>SignIn</p> </Link>
+             <Link to="/pod"><p> Products</p></Link> 
+            <Link to="/"><p>SignIn</p> </Link>
         </div>
     )
 }

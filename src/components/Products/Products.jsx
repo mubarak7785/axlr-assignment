@@ -6,9 +6,9 @@ export const Products=()=>{
     const [data,setData]=useState()
 
     useEffect(()=>{
-        fetch("https://api.earthsfresh.in/api/categories/getCategorylist").then(res=>res.json()).then(resut=>setData(resut.result))
+        
+    fetch("https://api.earthsfresh.in/api/categories/getCategorylist").then(res=>res.json()).then(resut=>setData(resut))
 
-       
     },[])
 
     
@@ -18,16 +18,15 @@ export const Products=()=>{
             
             
             <div className="display-pro">
-              
-           {data.map((e)=>{
-          return(
-            div(
-                <h1>{e.categories.cat_code}</h1>
-            )
-          )
-          
-           })}
-        
+              {/* {data.map((e)=>{
+                // console.log(e)
+                return(
+                    <div>
+
+                    </div>
+                )
+              })} */}
+               
             </div>
         </div>
     )
