@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Navbar } from "../Navbar/navbar"
+import { Navbar } from "../Navbar/Navbar"
 
 export const Products=()=>{
 
