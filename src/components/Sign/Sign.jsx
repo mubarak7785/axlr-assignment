@@ -1,7 +1,7 @@
 import { Navbar } from "../Navbar/Navbar"
 import { Link } from "react-router-dom"
 
-import "./Sign.css"
+import "./sign.css"
 export const Sign=()=>{
 
     return (
